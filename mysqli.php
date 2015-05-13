@@ -1,9 +1,9 @@
 <?php
 /* SQL Details */
 define('HOSTNAME', 'localhost');
-define('USERNAME', 'chenaho_soshort');
-define('PASSWORD', 'D34d54A213fg54Eyhn54');
-define('DATABASE', 'chenaho_soshort');
+define('USERNAME', 'root');
+define('PASSWORD', 'password');
+define('DATABASE', 'short');
 
 /* Create a new SQLi */
 $mysqli = new mysqli(HOSTNAME, USERNAME, PASSWORD, DATABASE);
